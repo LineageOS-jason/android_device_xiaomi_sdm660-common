@@ -120,6 +120,10 @@ PRODUCT_PACKAGES += \
     libgui_shim \
     vendor.qti.hardware.camera.device@1.0:64
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # ConsumerIR
 ifeq ($(BOARD_HAVE_IR),true)
 PRODUCT_PACKAGES += \
