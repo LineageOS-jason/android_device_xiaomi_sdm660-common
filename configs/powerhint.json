@@ -130,6 +130,15 @@
         ""
       ],
       "Type": "Property"
+    },
+    {
+      "Name": "DoubleTapToWakeEnable",
+      "Path": "/sys/touchpanel/double_tap",
+      "Values": [
+          "0",
+          "1"
+      ],
+      "DefaultIndex": 0
     }
   ],
   "Actions": [
@@ -246,6 +255,12 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "647000000"
+    },
+    {
+      "PowerHint": "DOUBLE_TAP_TO_WAKE",
+      "Node": "DoubleTapToWakeEnable",
+      "Duration": 0,
+      "Value": "1"
     }
   ]
 }
