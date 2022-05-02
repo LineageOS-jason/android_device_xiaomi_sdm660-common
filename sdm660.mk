@@ -298,6 +298,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor
 
+# Mlipay
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.mlipay@1.1.vendor:64
+
 # Network
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor \
