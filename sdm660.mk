@@ -117,6 +117,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5:64 \
     libdng_sdk.vendor \
+    libgui_shim \
     vendor.qti.hardware.camera.device@1.0:64
 
 # ConsumerIR
@@ -365,7 +366,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
-    libshim_imsvt \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \

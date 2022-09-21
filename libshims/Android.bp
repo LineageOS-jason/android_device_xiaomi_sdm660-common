@@ -13,10 +13,3 @@ cc_library_shared {
     ],
     vendor: true,
 }
-
-cc_library {
-    name: "libshim_imsvt",
-    srcs: [
-        "lib-imsvt.cpp",
-    ],
-}
