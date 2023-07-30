@@ -173,6 +173,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor
 
+# Extra
+$(call inherit-product-if-exists, vendor/extra/extra.mk)
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi
