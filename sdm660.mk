@@ -190,6 +190,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.2.vendor
 
+# Extra
+$(call inherit-product-if-exists, vendor/extra/extra.mk)
+
 # FM
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 PRODUCT_PACKAGES += \
