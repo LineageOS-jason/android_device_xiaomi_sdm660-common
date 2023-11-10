@@ -356,8 +356,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     android.hardware.secure_element@1.0.vendor \
     rild \
-    librmnetctl \
-    libprotobuf-cpp-full
+    librmnetctl
 
 PRODUCT_PACKAGES += \
     ims-ext-common \
