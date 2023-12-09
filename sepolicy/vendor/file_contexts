@@ -15,13 +15,6 @@
 # (e.g. Google Camera App)
 /mnt/vendor/dsp/fastrpc_shell_3                 u:object_r:public_adsprpcd_file:s0
 
-# IR
-/dev/lirc0                                      u:object_r:spidev_device:s0
-/dev/spidev7.1                                  u:object_r:spidev_device:s0
-
-# IR HAL
-/(vendor|system/vendor)/bin/hw/android\.hardware\.ir@1\.0-service\.xiaomi_sdm660                        u:object_r:hal_ir_default_exec:s0
-
 # Lights
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.xiaomi                                 u:object_r:hal_light_default_exec:s0
 
