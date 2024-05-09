@@ -148,8 +148,8 @@
     <!-- True if camera app should be pinned via Pinner Service -->
     <bool name="config_pinnerCameraApp">true</bool>
 
-    <!-- Should the pinner service pin the Home application? -->
-    <bool name="config_pinnerHomeApp">true</bool>
+    <!-- Bytes that the PinnerService will pin for Home app -->
+    <integer name="config_pinnerHomePinBytes">6291456</integer>
 
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
