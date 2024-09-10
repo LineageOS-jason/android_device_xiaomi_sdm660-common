@@ -525,5 +525,5 @@ vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292
 vendor/lib/mediadrm/libwvdrmengine.so|a8bdbbfb3aa222095f1cb7658ec5c46fa41dd560
 vendor/lib64/libcpion.so|ff24ef248bb35fd3cc1081a63f33c2565dc6351f
 vendor/lib64/libhdcpsrm.so|ee8e7c29e2b716a8bb07c3cbb730e34d8af3c64e
-vendor/lib64/libwvhidl.so|0466cd3b2a7b93efd23945e2637430513472ad7c
+vendor/lib64/libwvhidl.so|0466cd3b2a7b93efd23945e2637430513472ad7c|a97d3c322990371de6e1adba1224bfbda749de89
 vendor/lib64/mediadrm/libwvdrmengine.so|80280a2292db04a1eb3750df6897dea96f0f62f5

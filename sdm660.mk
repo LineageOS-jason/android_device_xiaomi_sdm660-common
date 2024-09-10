@@ -179,7 +179,8 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.2.vendor
+    android.hardware.drm@1.2.vendor \
+    libcrypto_shim
 
 # Extra
 $(call inherit-product-if-exists, vendor/extra/extra.mk)
