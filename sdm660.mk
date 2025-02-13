@@ -398,6 +398,9 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# UFFD GC
+OVERRIDE_ENABLE_UFFD_GC := false
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
