@@ -39,6 +39,8 @@ lib_fixups: lib_fixups_user_type = {
         'com.qualcomm.qti.ant@1.0',
         'com.qualcomm.qti.dpm.api@1.0',
         'vendor.qti.hardware.fm@1.0',
+        'vendor.qti.hardware.qccsyshal@1.0',
+        'vendor.qti.hardware.qccvndhal@1.0',
         'vendor.qti.imsrtpservice@2.0',
         'vendor.qti.imsrtpservice@2.1',
     ): lib_fixup_vendor_suffix,
@@ -68,6 +70,8 @@ blob_fixups: blob_fixups_user_type = {
         .remove_needed('vendor.xiaomi.hardware.mtdservice@1.0.so'),
     'vendor/bin/pm-service': blob_fixup()
         .add_needed('libutils-v33.so'),
+    'vendor/etc/izat.conf': blob_fixup()
+        .regex_replace('PROCESS_STATE=ENABLED', 'PROCESS_STATE=DISABLED'),
     (
         'vendor/lib64/libmlipay.so',
         'vendor/lib64/libmlipay@1.1.so',
