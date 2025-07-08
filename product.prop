@@ -1,5 +1,8 @@
 # Charger
 ro.charger.disable_init_blank=true
 
+# eBPF
+ro.bpf.kver_override=5.4.186
+
 # Radio
 ro.telephony.block_binder_thread_on_incoming_calls=false
