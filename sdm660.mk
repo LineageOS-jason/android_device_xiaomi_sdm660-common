@@ -335,6 +335,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf
 
+$(call soong_config_set,qtipower,tap_to_wake_node,/sys/touchpanel/double_tap)
+$(call soong_config_set_bool,qtipower,interaction_boost,true)
+
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
