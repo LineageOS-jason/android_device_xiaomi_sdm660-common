@@ -24,6 +24,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/xiaomi/sdm660-common',
+    'hardware/qcom-caf/common/libqti-perfd-client',
     'hardware/qcom-caf/msm8998',
     'hardware/qcom-caf/wlan',
     'hardware/xiaomi',
@@ -46,7 +47,6 @@ lib_fixups: lib_fixups_user_type = {
     ): lib_fixup_vendor_suffix,
     (
         'libmmcamera_dbg',
-        'libthermalclient',
     ): lib_fixup_remove,
 }
 
