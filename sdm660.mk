@@ -360,6 +360,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson
 
+# QTI fwk-detect
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti.vendor # Needed by CNE app
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4.vendor \
