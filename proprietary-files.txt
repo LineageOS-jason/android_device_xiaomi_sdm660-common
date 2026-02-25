@@ -262,7 +262,7 @@ vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 vendor/lib/hw/vulkan.sdm660.so|87d87b2520d3a8adec7a24f5999a27b291edaeba
 vendor/lib64/hw/vulkan.sdm660.so|ad3a5d92c6c13ba0c937dd1b83f371e804a57c4e
 
-# IRQ balance
+# IRQ balance - from jasmine
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
 
 # Keymaster - from jasmine
